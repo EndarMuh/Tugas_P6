@@ -26,10 +26,9 @@
             <div class="inner">
                 <center>
                     <h4 style="font-weight: bold">Pengalaman Kuliah</h4><br><br>
-                    <img src="dist/img/endar.jpg" alt="foto didin" style="width:200px"> <br><br> 
+                    <img src="dist/img/endarr.png" alt="foto endar" style="width:200px"> <br><br> 
                     @foreach ($kuliah2 as $item)
-                       
-                    
+                        
                     <h4 style="font-weight: bold">{{$item->full_name}} | {{$item->nim}}</h4>
                     <p>{{$item->story}}</p>
                     @endforeach   
